@@ -33,7 +33,7 @@ for row in xn:
     AND=predict(row,wn,-2)
     OR=predict(row,wn,-1)
     print("Input:{0}   And:{1}      OR:{2}".format(row,AND,OR))
-'q/d'
+'Question d'
 '''
 Comment: according to the result from question b and c, I found out that the AND 
 gate is only true when there is 2 inputs, otherwise it false. In order to work well with n inputs, bk must be equal -n.
